@@ -1,4 +1,4 @@
-//Create Bell State Phi Plus
+//This code create Quantum Entanglement in Phi-Plus Bell State 
 
 import Std.Diagnostics.DumpMachine;
 import Microsoft.Quantum.Diagnostics.*;

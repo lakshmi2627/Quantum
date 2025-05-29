@@ -1,11 +1,13 @@
+//This code create Quantum Entnaglement in Phi-minus Bell state
+
 import Microsoft.Quantum.Diagnostics.*;
 import Microsoft.Quantum.Math.*;
 
-operation main() : (Result, Result) {
+operation Main() : (Result, Result) {
     Message("Initializing Qubit:");
     use (q1, q2) = (Qubit(), Qubit());
     DumpMachine();
-    Message("Applying Hadamard:")
+    Message("Applying Hadamard:");
     H(q1);
     DumpMachine();
     Message("Applying Pauli-Z gate:");
